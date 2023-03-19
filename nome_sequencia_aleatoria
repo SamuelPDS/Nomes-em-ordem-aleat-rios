@@ -1,0 +1,9 @@
+import random
+n1 = input("Informe o primeiro nome")
+n2 = input("Informe o segundo nome")
+n3 = input("Informe o terceiro nome")
+n4 = input("Informe o quarto nome")
+n5 = input("Informe o quinto nome")
+lista = [n1,n2,n3,n4,n5]
+random.shuffle(lista)
+print("a lita dos nomes é {}:".format(lista))
